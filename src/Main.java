@@ -20,10 +20,10 @@ public class Main {
         }
 
         String[] orangeBlack1Tokens = scanner.nextLine().split("\\s+");
-        matrix[Integer.parseInt(orangeBlack1Tokens[0])][Integer.parseInt(orangeBlack1Tokens[1])] = '-';
+        matrix[Integer.parseInt(orangeBlack1Tokens[0]) - 1][Integer.parseInt(orangeBlack1Tokens[1]) - 1] = '-';
 
         String[] orangeBlack2Tokens = scanner.nextLine().split("\\s+");
-        matrix[Integer.parseInt(orangeBlack2Tokens[0])][Integer.parseInt(orangeBlack2Tokens[1])] = '-';
+        matrix[Integer.parseInt(orangeBlack2Tokens[0]) - 1][Integer.parseInt(orangeBlack2Tokens[1]) - 1] = '-';
 
         while (R > 0) {
 
